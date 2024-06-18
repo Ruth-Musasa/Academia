@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function NavBar() {
     return (
-        <div className="flex justify-evenly text-base text-gray-500 py-6 items-center font-medium	">
+        <div className="flex justify-evenly text-base text-[#6D737A] py-6 items-center font-medium	">
             <img src="src/assets/img/Rectangle 2.svg" alt="Logo" />
             <div >
                 <Link to='/' className="px-6 py-3  hover:font-semibold hover:text-black">Acceuil </Link>
