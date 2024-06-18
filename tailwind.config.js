@@ -5,10 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontSize:{
-      '57px': '57px',
+    extend: {
+      fontSize:{
+        '57px': '57px',
+      },
+      colors:{
+         '#68226F':'#68226F'
+      }
     },
-    extend: {},
   },
   plugins: [],
 }

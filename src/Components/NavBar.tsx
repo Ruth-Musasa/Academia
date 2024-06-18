@@ -11,11 +11,11 @@ export default function NavBar() {
                 <Link to='/' className="px-6 py-3  hover:font-semibold hover:text-black">Contacts</Link>
             </div>
             <div className="flex items-center">
-                <div className="flex px-6 py-3 space-x-1.5">
+                <div className="flex px-6 py-3 space-x-1.5 font-medium">
                     <img src="src/assets/img/Lock.svg" alt="Lock" />
                     <button> Login</button>
                 </div>
-                <button className="px-6 py-3 bg-[#68226F] text-white rounded-lg	 "> Sign up for Free </button>
+                <button className="px-6 py-3 bg-[#68226F] text-white rounded-lg	font-medium "> Sign up for Free </button>
             </div>
         </div>
     )
